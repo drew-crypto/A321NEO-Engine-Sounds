@@ -18,8 +18,8 @@ geofs.aircraft.instance.definition.sounds[7] = {};
 geofs.aircraft.instance.definition.sounds[7].id = "rpm4";
 geofs.aircraft.instance.definition.sounds[7].file = "https://drew-crypto.github.io/A321NEO-Engine-Sounds/Low.MP3";
 geofs.aircraft.instance.definition.sounds[7].effects = { 
-    volume: { value: "rpm", ramp: [0, 5000, 9000, 12000], ratio: 1 }, 
-    pitch: { value: "rpm", ramp: [0, 20000, 20000, 20000], offset: 1, ratio: 1 } 
+    volume: { value: "rpm", ramp: [0, 4000, 8000, 11000], ratio: 1 }, 
+    pitch: { value: "rpm", ramp: [0, 12000, 18000, 20000], offset: 1, ratio: 1 } 
 };
 
 // Mid layer
@@ -27,8 +27,8 @@ geofs.aircraft.instance.definition.sounds[8] = {};
 geofs.aircraft.instance.definition.sounds[8].id = "rpm5";
 geofs.aircraft.instance.definition.sounds[8].file = "https://drew-crypto.github.io/A321NEO-Engine-Sounds/The%20new%20.MP3";
 geofs.aircraft.instance.definition.sounds[8].effects = { 
-    volume: { value: "rpm", ramp: [9000, 12000, 15000, 18000], ratio: 1 }, 
-    pitch: { value: "rpm", ramp: [0, 20000, 20000, 20000], offset: 1, ratio: 1 } 
+    volume: { value: "rpm", ramp: [8000, 11000, 15000, 17500], ratio: 1 }, 
+    pitch: { value: "rpm", ramp: [0, 12000, 18000, 20000], offset: 1, ratio: 1 } 
 };
 
 // High layer
@@ -36,7 +36,7 @@ geofs.aircraft.instance.definition.sounds[9] = {};
 geofs.aircraft.instance.definition.sounds[9].id = "rpm6";
 geofs.aircraft.instance.definition.sounds[9].file = "https://drew-crypto.github.io/A321NEO-Engine-Sounds/High.MP3";
 geofs.aircraft.instance.definition.sounds[9].effects = { 
-    volume: { value: "rpm", ramp: [8000, 18000, 20000, 20000], ratio: 2 }, // high dominates
+    volume: { value: "rpm", ramp: [15000, 17500, 20000, 20000], ratio: 2 }, // high dominates
     pitch: { value: "rpm", ramp: [0, 0, 0, 0], offset: 1, ratio: 1 } // no pitch change
 };
 
